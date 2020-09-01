@@ -408,7 +408,7 @@ def run():
       num_heads=NUM_HEADS,
       dropout=DROPOUT)
 
-  re_model.load_weights("saved models/Transformer-saved-model-200-0.656796.hdf5")
+  re_model.load_weights("saved models/Transformer-saved-model-100-0.813247.hdf5")
 
   def evaluate(sentence):
     sentence = preprocess_sentence(sentence)
@@ -447,7 +447,7 @@ def run():
 
     return predicted_sentence
 
-  output = predict('Where have you been?')
-  output = predict('Hahaha')
+  # output = predict('Where have you been?')
+  # output = predict('Hahaha')
 
   return predict

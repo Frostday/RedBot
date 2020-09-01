@@ -25,12 +25,12 @@ The raw dataset can be found here - http://files.pushshift.io/reddit/comments/.
 This dataset contains millions of reddit comments and their responses from the year 2016 to 2020 from many different subreddits. I recommend downloading .xz files as they contain the same data as .bz2 files but use higher compression.
 
 ## Model
-I used the model which was proposed in one of Google's research papers - "Attention is all you need". This research paper <add>. A basic implementation of this model can be found here - https://blog.tensorflow.org/2019/05/transformer-chatbot-tutorial-with-tensorflow-2.html.
+I used the model which was proposed in one of Google's research papers - "Attention is all you need". A basic implementation of this model can be found here - https://blog.tensorflow.org/2019/05/transformer-chatbot-tutorial-with-tensorflow-2.html.
 ![](assets/model.png)
 
 ## Results
 
-200 epochs and 100,000 observations
+- 200 epochs and 100,000 observations
 
 | Loss   | Accuracy |
 |:-------|:---------|
@@ -38,4 +38,4 @@ I used the model which was proposed in one of Google's research papers - "Attent
 
 ## Preview
 
-![](assets/preview.gif)
+![](assets/chatbot.gif)
