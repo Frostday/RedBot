@@ -26,6 +26,7 @@ This dataset contains millions of reddit comments and their responses from the y
 
 ## Model
 I used the model which was proposed in one of Google's research papers - "Attention is all you need". A basic implementation of this model can be found here - https://blog.tensorflow.org/2019/05/transformer-chatbot-tutorial-with-tensorflow-2.html.
+
 ![](assets/model.png)
 
 ## Results
