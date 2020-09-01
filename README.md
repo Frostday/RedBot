@@ -4,7 +4,7 @@ RedBot is a chatbot trained on Reddit comments dataset using a transformer model
 ## Installation and Setup
 * Fork the repo and clone it.
 ```
-https://github.com/Frostday/RedBot.git
+git clone https://github.com/Frostday/RedBot.git
 ```
 * Install the necessary packages required to run the code
 ```
@@ -12,7 +12,7 @@ pip install requirements.txt
 ```
 * Run the following command
 ```
-python chatbot_gui.py
+python -u chatbot_gui.py
 ```
 
 ## File Structure
