@@ -8,7 +8,7 @@ git clone https://github.com/Frostday/RedBot.git
 ```
 * Install the necessary packages required to run the code
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 * Run the following command
 ```
